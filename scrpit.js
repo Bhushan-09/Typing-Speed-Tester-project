@@ -15,7 +15,7 @@ let data=["JavaScript is the Programming Language for the Web.",
           let endTime;
 
           const myFun = () => {
-             let Paralenth = textInput.value.split(" ").length 
+             let Paralenth = textInput.value.split("").length 
             let time = new Date();
             endTime= time.getTime();
            let completeTime = Math.floor((endTime-startTime)/1000);
